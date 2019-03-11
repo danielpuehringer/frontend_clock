@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.row{
+    margin: auto;
+}
+
+.container{
+    margin-top: 15vh;
+}
+
+.digitalView{
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.timeZoneView{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.analogView{
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.analogViewContent{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    border: 10px solid #555555;
+    background-color: #000000;
+    margin-left: calc(50% - 125px);
+}
+
+.secDiv, .minDiv, .houDiv{
+    position: relative;
+    width: 105px;
+    height: 2px;
+    background-color: #ff6659;
+    transform-origin: right;
+    margin-top: 115px;
+    margin-left: 10px;
+    transform: rotate(90deg);
+}
+
+.minDiv{
+    width: 90px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top: -2px;
+    margin-left: 25px;
+}
+
+.houDiv{
+    width: 45px;
+    height: 6px;
+    background-color: #ffffff;
+    margin-top: -5px;
+    margin-left: 70px;
+}
+
+.pointDiv{
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    margin-top: -9px;
+    margin-left: 111px;
+    border-radius: 4px;
+}
+
+.am_pm_style{
+    font-size: 0.8em;
+}
+
+.middle{
+    vertical-align: middle;
+}
+
+.displayTimeZone{
+    font-size: 2em;
+    margin: 0 15px;
+}

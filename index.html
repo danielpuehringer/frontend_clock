@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 1 - Daniel P.</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="vendor/normalize.css"/>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>-
+
+    <!--Own Stylesheet-->
+    <link rel="stylesheet" href="css/default.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="row analogView">
+        <div class="col-xs-12">
+            <div class="analogViewContent">
+                <div class="secDiv">
+                    <!--Empty Tag-->
+                </div>
+                <div class="minDiv">
+                    <!--Empty Tag-->
+                </div>
+                <div class="houDiv">
+                    <!--Empty Tag-->
+                </div>
+                <div class="pointDiv"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="digitalView">
+            <div class="col-xs-12">
+                <h1 class="digitalViewContent">00:00:00</h1>
+                <div class="switch">
+                    <label>
+                        24h
+                        <input type="checkbox" name="12h_24h">
+                        <span class="lever"></span>
+                        12h
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row timeZoneView">
+        <div class="col-xs-12">
+            <a class="decreaseTimeZone btn-floating btn-large waves-effect waves-light red"><i class="material-icons">exposure_neg_1</i></a>
+            <span class="displayTimeZone">GMT<span class="displayTimeZoneOffset"></span></span>
+            <a class="increaseTimeZone btn-floating btn-large waves-effect waves-light red"><i class="material-icons">exposure_plus_1</i></a>
+        </div>
+    </div>
+</div>
+
+
+<!--JavaScript Files (included after whole DOM-Tree is loaded-->
+<script src="vendor/jquery-3.2.0.js"></script>
+<script src="js/model.js"></script>
+<script src="js/views.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
